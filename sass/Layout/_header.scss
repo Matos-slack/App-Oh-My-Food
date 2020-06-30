@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    width: 100%;
+    background-color: $color-bg;
+        header h1{
+            text-align: center;
+            color: $color-font;
+            font-size: 3em;
+            width: 100%;
+        }
+    }
