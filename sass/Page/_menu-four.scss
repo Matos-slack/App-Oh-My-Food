@@ -1,3 +1,18 @@
 .menu_four{
     @include menu_style;
+    background-color: $color-menu-four;
+    margin: 1em;
+    p{
+        font-family: "kaushan";
+        background:-webkit-linear-gradient(left, rgb(23, 129, 14) 10% , rgba(166, 255, 114, 0.568));
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+    }
+    h2{
+        background:-webkit-linear-gradient(left, rgb(23, 129, 14) 10% , rgba(166, 255, 114, 0.568));
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+    }
 }

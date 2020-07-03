@@ -1,4 +1,11 @@
 .menu{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    font-family: "segoe";
+    font-size: 1em;
+    padding-top: 2em;
+    p{
+        font-size: 1.2em;
+    }
 }

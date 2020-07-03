@@ -1,3 +1,21 @@
 .menu_one{
     @include menu_style;
+    background-color: $color-menu-one;
+    color: rgb(68, 1, 1);
+    margin: 1em;
+    p{
+        font-family: "devon";
+        margin-top: -1em;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(68, 1, 1);
+    }
+    h2{
+        text-transform: uppercase;
+        margin-top: -1em;
+    }
+    img{
+        padding-bottom: 0.5em;
+    }
 }

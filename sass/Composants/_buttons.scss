@@ -1,4 +1,12 @@
 .button{
-    width: 8em;
+    width: 350px;
     margin: auto;
+    background-color: $color-bg;
+    color: $color-font;
+    text-align: center;
+    font-size: 1.9em;
+    border-radius: 10px;
+    p{
+        padding: 0.2em;
+    }
 }

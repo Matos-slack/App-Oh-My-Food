@@ -1,58 +1,172 @@
 body {
   background-color: #fff;
-  max-width: 928px;
   margin: auto;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1em;
 }
 
 main {
-  width: 80%;
+  width: 35%;
   margin: auto;
 }
 
+@font-face {
+  font-family: "devon";
+  src: url("../font/Devonshire-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "segoe";
+  src: url("../font/segoeprb.ttf") format("truetype");
+}
+@font-face {
+  font-family: "kaushan";
+  src: url("../font/KaushanScript-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "croissant";
+  src: url("../font/CroissantOne-Regular.ttf") format("truetype");
+  src: url("../font/CroissantOne-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "noto";
+  src: url("../font/NotoSerif-Regular.ttf") format("truetype");
+  src: url("../font/NotoSerif-Italic.ttf") format("truetype");
+  src: url("../font/NotoSerif-BoldItalic.ttf") format("truetype");
+  src: url("../font/NotoSerif-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "dancing";
+  src: url("../font/Dancing-script.ttf") format("truetype");
+}
 .menu_four {
-  width: 40%;
+  width: 35%;
   text-align: center;
-  margin: 2em 2em 2em 2em;
+  margin: auto;
   box-shadow: 0px 0px 10px 0px rgba(112, 112, 112, 0.42);
+  padding-top: 5em;
+  height: 12em;
+  background-color: #ffffff;
+  margin: 1em;
+}
+.menu_four p {
+  font-family: "kaushan";
+  background: -webkit-linear-gradient(left, #17810e 10%, rgba(166, 255, 114, 0.568));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.menu_four h2 {
+  background: -webkit-linear-gradient(left, #17810e 10%, rgba(166, 255, 114, 0.568));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .menu_one {
-  width: 40%;
+  width: 35%;
   text-align: center;
-  margin: 2em 2em 2em 2em;
+  margin: auto;
   box-shadow: 0px 0px 10px 0px rgba(112, 112, 112, 0.42);
+  padding-top: 5em;
+  height: 12em;
+  background-color: #FCDFDA;
+  color: #440101;
+  margin: 1em;
+}
+.menu_one p {
+  font-family: "devon";
+  margin-top: -1em;
+}
+.menu_one a {
+  text-decoration: none;
+  color: #440101;
+}
+.menu_one h2 {
+  text-transform: uppercase;
+  margin-top: -1em;
+}
+.menu_one img {
+  padding-bottom: 0.5em;
 }
 
 .menu_three {
-  width: 40%;
+  width: 35%;
   text-align: center;
-  margin: 2em 2em 2em 2em;
+  margin: auto;
   box-shadow: 0px 0px 10px 0px rgba(112, 112, 112, 0.42);
+  padding-top: 5em;
+  height: 12em;
+  background-color: #F9F9F9;
+  margin: 1em;
+}
+.menu_three p {
+  background: -webkit-linear-gradient(left, #0400ff, #00b7ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "dancing";
+}
+.menu_three h2 {
+  background: -webkit-linear-gradient(left, #0400ff, #00b7ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .menu_two {
-  width: 40%;
+  width: 35%;
   text-align: center;
-  margin: 2em 2em 2em 2em;
+  margin: auto;
   box-shadow: 0px 0px 10px 0px rgba(112, 112, 112, 0.42);
+  padding-top: 5em;
+  height: 12em;
+  background-color: #FEF5FD;
+  font-family: "noto";
+  margin: 1em;
+  color: rgba(204, 117, 45, 0.918);
+}
+.menu_two p {
+  background: -webkit-linear-gradient(left, orange, blue);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "croissant";
 }
 
 .menu {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  font-family: "segoe";
+  font-size: 1em;
+  padding-top: 2em;
+}
+.menu p {
+  font-size: 1.2em;
 }
 
 .button {
-  width: 8em;
+  width: 350px;
   margin: auto;
+  background-color: #569C87;
+  color: #FFCC3D;
+  text-align: center;
+  font-size: 1.9em;
+  border-radius: 10px;
+}
+.button p {
+  padding: 0.2em;
 }
 
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #569C87;
+  color: #FFCC3D;
+  padding: 0 3em 0 3em;
+}
+footer h3 {
+  font-size: 1.3em;
 }
 
 header {
@@ -60,10 +174,10 @@ header {
   width: 100%;
   background-color: #569C87;
 }
-header header h1 {
+header h1 {
   text-align: center;
   color: #FFCC3D;
-  font-size: 3em;
+  font-size: 2.5em;
   width: 100%;
 }
 
