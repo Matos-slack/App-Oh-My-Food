@@ -10,13 +10,21 @@ main {
   margin: auto;
 }
 
+section h1 {
+  text-align: center;
+}
+
 @font-face {
   font-family: "devon";
   src: url("../font/Devonshire-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "segoe";
-  src: url("../font/segoeprb.ttf") format("truetype");
+  src: url("../font/Segoe_Print.ttf") format("truetype");
+}
+@font-face {
+  font-family: "segoe-bold";
+  src: url("../font/Segoe_Print_Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "kaushan";
@@ -60,6 +68,69 @@ main {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+
+.menu-list {
+  color: #440101;
+  display: flex;
+  flex-direction: column;
+  width: 50em;
+  margin: auto;
+  text-align: center;
+  vertical-align: center;
+  background-color: #FCDFDA;
+  box-shadow: 0px 0px 10px 0px rgba(112, 112, 112, 0.42);
+  padding: 3em;
+}
+.menu-list .title-menu {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 0 4em;
+  justify-content: space-between;
+  font-family: "segoe", Arial, Helvetica, sans-serif;
+}
+.menu-list #ornement {
+  width: 13em;
+}
+.menu-list p {
+  display: flex;
+  justify-content: space-between;
+  font-family: "segoe", Arial, Helvetica, sans-serif;
+}
+.menu-list h2 {
+  font-family: "devon";
+  margin-top: -0.2em;
+  font-size: 2em;
+}
+.menu-list span {
+  margin-left: 4em;
+  font-family: "segoe-bold";
+}
+.menu-list .bot-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 1em;
+  padding: 2em;
+  font-size: 1.2em;
+}
+.menu-list .bot-menu h2 {
+  font-size: 1.4em;
+  padding-top: 0.5em;
+}
+.menu-list .bot-menu img {
+  padding-bottom: 1em;
+}
+.menu-list .content-menu {
+  padding: 0 4em;
+}
+
+.b {
+  background-color: #FEF5FD;
+}
+.b h2 {
+  font-family: "croissant", "Times New Roman", Times, serif;
 }
 
 .menu_one {
@@ -123,7 +194,6 @@ main {
   background-color: #FEF5FD;
   font-family: "noto";
   margin: 1em;
-  color: rgba(204, 117, 45, 0.918);
 }
 .menu_two p {
   background: -webkit-linear-gradient(left, orange, blue);
@@ -131,6 +201,9 @@ main {
   -webkit-background-clip: text;
   color: transparent;
   font-family: "croissant";
+}
+.menu_two h2 {
+  color: rgba(204, 117, 45, 0.918);
 }
 
 .menu {
@@ -143,6 +216,9 @@ main {
 }
 .menu p {
   font-size: 1.2em;
+}
+.menu a {
+  text-decoration: none;
 }
 
 .button {
@@ -179,6 +255,14 @@ header h1 {
   color: #FFCC3D;
   font-size: 2.5em;
   width: 100%;
+}
+header a {
+  text-decoration: none;
+  margin: auto;
+}
+
+.menu-header h2 {
+  font-size: 3em;
 }
 
 /*# sourceMappingURL=style.css.map */

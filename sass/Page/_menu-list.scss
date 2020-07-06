@@ -1,0 +1,64 @@
+.menu-list{
+    color: rgb(68, 1, 1);
+    display: flex;
+    flex-direction: column;
+    width: 50em;
+    margin: auto;
+    text-align: center;
+    vertical-align: center;
+    background-color: $color-menu-one;
+    box-shadow: 0px 0px 10px 0px rgba(112,112,112,0.42);
+    padding: 3em;
+    .title-menu{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        padding: 0 4em;
+        justify-content: space-between;
+        font-family: "segoe", Arial, Helvetica, sans-serif;
+    }
+    #ornement{
+        width: 13em;
+    }
+    p{
+        display: flex;
+        justify-content: space-between;
+        font-family: "segoe", Arial, Helvetica, sans-serif;
+        
+    }
+    h2{
+        font-family: "devon";
+        margin-top: -0.2em;
+        font-size: 2em;
+    }
+    span{
+        margin-left: 4em;
+        font-family: "segoe-bold";
+    }
+    .bot-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 1em;
+        padding: 2em;
+        font-size: 1.2em;
+        h2{
+            font-size: 1.4em;
+            padding-top: 0.5em;
+        }
+        img{
+            padding-bottom: 1em;
+        }
+
+    }
+    .content-menu{
+        padding: 0 4em;
+    }
+
+}
+.b{
+    background-color: $color-menu-two;
+    h2{
+        font-family: "croissant", 'Times New Roman', Times, serif;
+    }
+}

@@ -3,12 +3,14 @@
     background-color: $color-menu-two;
     font-family:"noto";
     margin: 1em;
-    color: rgba(204, 117, 45, 0.918);
     p{
         background:-webkit-linear-gradient(left, orange , blue);
         background-clip:text;
         -webkit-background-clip:text;
         color:transparent;
         font-family: "croissant";
+    }
+    h2{
+        color: rgba(204, 117, 45, 0.918);
     }
 }
