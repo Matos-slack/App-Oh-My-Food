@@ -2,7 +2,7 @@
     @include menu_style;
     background-color: $color-menu-three;
     margin: 1em;
-    p{
+    p, h2{
         background:-webkit-linear-gradient(left, rgb(4, 0, 255) , rgb(0, 183, 255));
         background-clip:text;
         -webkit-background-clip:text;
@@ -10,11 +10,7 @@
         font-family: "dancing";
     }
         h2{
-            background:-webkit-linear-gradient(left, rgb(4, 0, 255) , rgb(0, 183, 255));
-            background-clip:text;
-            -webkit-background-clip:text;
-            color:transparent;
-        
+            font-family: "segoe", Arial, Helvetica, sans-serif;
         }
     
 }

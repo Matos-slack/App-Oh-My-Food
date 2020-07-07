@@ -56,9 +56,86 @@
     }
 
 }
+// style pour menu b
 .b{
     background-color: $color-menu-two;
     h2{
         font-family: "croissant", 'Times New Roman', Times, serif;
+        margin-top: 0em;
+        font-size: 2em;
+        font-weight: normal;
+        background: -webkit-linear-gradient(left, orange , blue);
+        background-clip:text;
+        -webkit-background-clip:text;
+        color: transparent;
     }
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgba(204, 117, 45, 0.918);
+        font-size: 1.2em;
+    }
+    span{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    h3{
+        color: rgba(204, 117, 45, 0.918);
+    }
+}
+.two{
+    p, h3{
+    color: #A86999;
+    }
+    
+}
+.three{
+    p, h3{
+        color: #8A5CCC;
+    }
+}
+
+// Style pour menu C
+
+.c{
+    background-color: $color-menu-three;
+    color: black;
+    h2{
+        font-family: "dancing";
+        font-weight: normal;
+        background:-webkit-linear-gradient(left, rgb(4, 0, 255) , rgb(0, 204, 255));
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+    }
+    p{
+        color: black;
+    }
+    h3{
+        color: black;
+        font-weight: normal;
+    }
+}
+
+// Style pour menu d
+
+.d{
+    background-color: $color-menu-four;
+    color: black;
+    p{
+        color: black;
+        letter-spacing: -1px;
+    }
+    h3{
+        color: black;
+        font-weight: normal;
+        letter-spacing: -1px;
+    }
+    h2{
+        font-family: "kaushan", Arial, Helvetica, sans-serif;
+        background:-webkit-linear-gradient(left, rgb(23, 129, 14) 10% , rgba(166, 255, 114, 0.568));
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+    }
+
 }
