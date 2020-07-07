@@ -296,8 +296,9 @@ section h1 {
   background-color: #569C87;
   color: #FFCC3D;
   text-align: center;
-  font-size: 1.9em;
+  font-size: 2.5em;
   border-radius: 10px;
+  padding-right: 0.5em;
 }
 .button p {
   padding: 0.2em;
@@ -311,7 +312,7 @@ footer {
   padding: 0 3em 0 3em;
 }
 footer h3 {
-  font-size: 1.3em;
+  font-size: 1.8em;
 }
 
 header {
@@ -328,6 +329,7 @@ header h1 {
 header a {
   text-decoration: none;
   margin: auto;
+  font-size: 1.5em;
 }
 
 .menu-header h2 {
