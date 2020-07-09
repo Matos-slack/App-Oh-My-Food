@@ -1,10 +1,23 @@
 footer{
-    display: flex;
-    justify-content: space-between;
     background-color: $color-bg;
     color: $color-font;
-    padding: 0 3em 0 3em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    a{
+        text-decoration: none;
+        color: $color-font;
+    }
     h3{
         font-size: 1.8em;
+        max-width: 1280px;
+    }
+    h3:hover{
+        animation: wiggle 700ms linear 50ms;
+    }
+    .foot{
+        display: flex;
+        justify-content: space-around;
     }
 }

@@ -11,3 +11,22 @@
         padding: 0.2em;
     }
 }
+    .dots{
+        letter-spacing: 3px;
+        animation: dots 2000ms ease-in-out infinite;
+    }
+  
+  .dots--1{
+    letter-spacing: 3px;
+    animation: dots 2000ms 0s ease-in-out infinite;
+}
+.dots--2{
+    letter-spacing: 3px;
+    animation: dots 2000ms 700ms ease-in-out infinite;
+}
+.dots--3{
+    letter-spacing: 3px;
+    animation: dots 2000ms 1100ms ease-in-out infinite;
+}
+
+

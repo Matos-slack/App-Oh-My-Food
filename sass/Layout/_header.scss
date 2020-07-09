@@ -7,6 +7,9 @@ header{
             color: $color-font;
             font-size: 2.5em;
             width: 100%;
+        &:hover{
+            animation: turn 1000ms linear 50ms;
+            }
         }
         a{
             text-decoration: none;
