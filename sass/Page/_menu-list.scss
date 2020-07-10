@@ -16,17 +16,17 @@
         padding: 0 4em;
         justify-content: space-between;
         font-family: "segoe", Arial, Helvetica, sans-serif;
-        a{
-            text-decoration: none;
-            background: linear-gradient(to top, red 0%, red 5%, transparent 10%) no-repeat;
-            background-size: 0 100%;
-            transition: background-size 300ms;
+        // a{
+        //     text-decoration: none;
+        //     background: linear-gradient(to top, red 0%, red 5%, transparent 10%) no-repeat;
+        //     background-size: 0 100%;
+        //     transition: background-size 300ms;
+        // }
+        // a:hover{
+        //     background-size: 100% 100%;
+        // }
         }
-        a:hover{
-            background-size: 100% 100%;
-        }
-        }
-    }
+    
     #ornement{
         width: 13em;
     }
@@ -65,7 +65,7 @@
         padding: 0 4em;
     }
     
-
+}
 
 // style pour menu b
 .b{
