@@ -96,24 +96,38 @@ section {
   justify-content: space-between;
   font-family: "segoe", Arial, Helvetica, sans-serif;
 }
-.menu-list #ornement {
+.menu-list .title-menu a {
+  text-decoration: none;
+  background: linear-gradient(to top, red 0%, red 5%, transparent 10%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 300ms;
+}
+.menu-list .title-menu a:hover {
+  background-size: 100% 100%;
+}
+
+#ornement {
   width: 13em;
 }
-.menu-list p {
+
+p {
   display: flex;
   justify-content: space-between;
   font-family: "segoe", Arial, Helvetica, sans-serif;
 }
-.menu-list h2 {
+
+h2 {
   font-family: "devon";
   margin-top: -0.2em;
   font-size: 2em;
 }
-.menu-list span {
+
+span {
   margin-left: 4em;
   font-family: "segoe-bold";
 }
-.menu-list .bot-menu {
+
+.bot-menu {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -121,14 +135,15 @@ section {
   padding: 2em;
   font-size: 1.2em;
 }
-.menu-list .bot-menu h2 {
+.bot-menu h2 {
   font-size: 1.4em;
   padding-top: 0.5em;
 }
-.menu-list .bot-menu img {
+.bot-menu img {
   padding-bottom: 1em;
 }
-.menu-list .content-menu {
+
+.content-menu {
   padding: 0 4em;
 }
 
@@ -379,10 +394,18 @@ header a {
 }
 @keyframes dots {
   0% {
-    opacity: 0.1;
+    opacity: 0;
   }
   100% {
     opacity: 1;
+  }
+}
+@keyframes surlign {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
   }
 }
 .menu {
