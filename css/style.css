@@ -10,13 +10,24 @@ main {
   width: 50%;
   margin: auto;
 }
+@media (max-width: 425px) {
+  main {
+    width: 80%;
+    margin: 2em;
+  }
+}
 
-section h1 {
+section h2 {
   text-align: center;
 }
 
 section {
   margin-top: 70px;
+}
+@media (max-width: 768px) {
+  section {
+    padding: 0.5em;
+  }
 }
 
 @font-face {
@@ -55,25 +66,31 @@ section {
   width: 40%;
   text-align: center;
   margin: auto;
-  box-shadow: 0px 0px 15px 0px rgba(112, 112, 112, 0.42);
+  box-shadow: 2px 8px 15px 2px rgba(112, 112, 112, 0.32);
   padding-top: 12em;
   height: 22em;
   background-color: #ffffff;
   margin: 1em;
 }
+@media (max-width: 768px) {
+  .menu_four {
+    width: 100%;
+    font-size: 0.8em;
+  }
+}
 .menu_four p {
   font-family: "kaushan";
-  background: -webkit-linear-gradient(left, #17810e 10%, rgba(166, 255, 114, 0.568));
+  background: -webkit-linear-gradient(left, #17810e 10%, #beff7f);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
 .menu_four h2 {
-  background: -webkit-linear-gradient(left, #17810e 10%, rgba(166, 255, 114, 0.568));
+  letter-spacing: 2px;
+  background: -webkit-linear-gradient(left, #17810e 10%, #beff7f);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  letter-spacing: 2px;
 }
 
 .menu-list {
@@ -87,22 +104,42 @@ section {
   background-color: #FCDFDA;
   box-shadow: 0px 0px 15px 0px rgba(112, 112, 112, 0.42);
   padding: 3em;
+  font-size: 1.2em;
+}
+@media (max-width: 1150px) {
+  .menu-list {
+    width: 80%;
+    padding: 2em;
+  }
 }
 .menu-list .title-menu {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  padding: 0 4em;
+  padding: 0 2em;
   justify-content: space-between;
   font-family: "segoe", Arial, Helvetica, sans-serif;
 }
-.menu-list #ornement {
+@media (max-width: 1150px) {
+  .menu-list .title-menu {
+    padding: 0em;
+    font-size: 1em;
+    flex-flow: column nowrap;
+  }
+}
+.menu-list .ornement {
   width: 13em;
 }
 .menu-list p {
   display: flex;
   justify-content: space-between;
+  font-weight: normal;
   font-family: "segoe", Arial, Helvetica, sans-serif;
+}
+@media (max-width: 768px) {
+  .menu-list p {
+    flex-flow: column nowrap;
+  }
 }
 .menu-list h2 {
   font-family: "devon";
@@ -113,6 +150,11 @@ section {
   margin-left: 4em;
   font-family: "segoe-bold";
 }
+@media (max-width: 768px) {
+  .menu-list span {
+    margin-left: 0em;
+  }
+}
 .menu-list .bot-menu {
   display: flex;
   flex-direction: row;
@@ -120,6 +162,11 @@ section {
   padding-bottom: 1em;
   padding: 2em;
   font-size: 1.2em;
+}
+@media (max-width: 768px) {
+  .menu-list .bot-menu {
+    display: block;
+  }
 }
 .menu-list .bot-menu h2 {
   font-size: 1.4em;
@@ -129,7 +176,15 @@ section {
   padding-bottom: 1em;
 }
 .menu-list .content-menu {
-  padding: 0 4em;
+  padding: 0 2em;
+}
+@media (max-width: 768px) {
+  .menu-list .content-menu {
+    flex-flow: column nowrap;
+    padding: 0 4em;
+    font-size: 0.8em;
+    text-align: center;
+  }
 }
 
 .b {
@@ -173,13 +228,10 @@ section {
 .c h2 {
   font-family: "dancing";
   font-weight: normal;
-  background: -webkit-linear-gradient(left, #0400ff, #00ccff);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
 }
 .c p {
   color: black;
+  font-weight: normal;
 }
 .c h3 {
   color: black;
@@ -193,6 +245,7 @@ section {
 .d p {
   color: black;
   letter-spacing: -1px;
+  font-weight: normal;
 }
 .d h3 {
   color: black;
@@ -201,7 +254,7 @@ section {
 }
 .d h2 {
   font-family: "kaushan", Arial, Helvetica, sans-serif;
-  background: -webkit-linear-gradient(left, #17810e 10%, rgba(166, 255, 114, 0.568));
+  background: -webkit-linear-gradient(left, #17810e 10%, #beff7f);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -211,16 +264,23 @@ section {
   width: 40%;
   text-align: center;
   margin: auto;
-  box-shadow: 0px 0px 15px 0px rgba(112, 112, 112, 0.42);
+  box-shadow: 2px 8px 15px 2px rgba(112, 112, 112, 0.32);
   padding-top: 12em;
   height: 22em;
   background-color: #FCDFDA;
   color: #440101;
   margin: 1em;
 }
+@media (max-width: 768px) {
+  .menu_one {
+    width: 100%;
+    font-size: 0.8em;
+  }
+}
 .menu_one p {
   font-family: "devon";
   margin-top: -1em;
+  font-weight: normal;
 }
 .menu_one a {
   text-decoration: none;
@@ -231,50 +291,74 @@ section {
   margin-top: -0.5em;
 }
 .menu_one img {
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
 }
 
 .menu_three {
   width: 40%;
   text-align: center;
   margin: auto;
-  box-shadow: 0px 0px 15px 0px rgba(112, 112, 112, 0.42);
+  box-shadow: 2px 8px 15px 2px rgba(112, 112, 112, 0.32);
   padding-top: 12em;
   height: 22em;
   background-color: #f3f3f3;
   margin: 1em;
 }
-.menu_three p, .menu_three h2 {
-  background: -webkit-linear-gradient(left, #0400ff, #00b7ff);
+@media (max-width: 768px) {
+  .menu_three {
+    width: 100%;
+    font-size: 0.8em;
+  }
+}
+.menu_three p {
+  font-family: "dancing";
+  background: -webkit-linear-gradient(left, #0400ff, #00ccff);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  font-family: "dancing";
 }
 .menu_three h2 {
   font-family: "segoe", Arial, Helvetica, sans-serif;
+  background: -webkit-linear-gradient(left, #0400ff, #00ccff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .menu_two {
   width: 40%;
   text-align: center;
   margin: auto;
-  box-shadow: 0px 0px 15px 0px rgba(112, 112, 112, 0.42);
+  box-shadow: 2px 8px 15px 2px rgba(112, 112, 112, 0.32);
   padding-top: 12em;
   height: 22em;
   background-color: #FEF5FD;
   font-family: "noto";
   margin: 1em;
 }
+@media (max-width: 768px) {
+  .menu_two {
+    width: 100%;
+    font-size: 0.8em;
+  }
+}
 .menu_two p {
-  background: -webkit-linear-gradient(left, orange, blue);
+  font-family: "croissant";
+  background: -webkit-linear-gradient(left, rgba(204, 117, 45, 0.918), #8A5CCC);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  font-family: "croissant";
 }
 .menu_two h2 {
   color: rgba(204, 117, 45, 0.918);
+}
+
+.mention {
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
 }
 
 footer {
@@ -292,6 +376,11 @@ footer a {
 footer h3 {
   font-size: 1.8em;
   max-width: 1280px;
+}
+@media (max-width: 768px) {
+  footer h3 {
+    font-size: 1.2em;
+  }
 }
 footer h3:hover {
   animation: wiggle 700ms linear 50ms;
@@ -393,6 +482,61 @@ header a {
     transform: scaleX(1);
   }
 }
+h3.surlign-menu-one {
+  text-decoration: none;
+  background: linear-gradient(to top, #440101 0%, #440101 1%, transparent 10%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 500ms;
+}
+
+h3.surlign-menu-one:hover {
+  background-size: 100% 100%;
+}
+
+h3.surlign-menu-two-two {
+  text-decoration: none;
+  background: linear-gradient(to top, #A86999 0%, #A86999 1%, transparent 10%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 400ms;
+}
+
+h3.surlign-menu-two-two:hover {
+  background-size: 100% 100%;
+}
+
+h3.surlign-menu-two-one {
+  text-decoration: none;
+  background: linear-gradient(to top, rgba(204, 117, 45, 0.918) 0%, rgba(204, 117, 45, 0.918) 1%, transparent 10%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 400ms;
+}
+
+h3.surlign-menu-two-one:hover {
+  background-size: 100% 100%;
+}
+
+h3.surlign-menu-two-three {
+  text-decoration: none;
+  background: linear-gradient(to top, #8A5CCC 0%, #8A5CCC 1%, transparent 10%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 400ms;
+}
+
+h3.surlign-menu-two-three:hover {
+  background-size: 100% 100%;
+}
+
+h3.surlign-menu-three-four {
+  text-decoration: none;
+  background: linear-gradient(to top, #000000 0%, #000000 1%, transparent 10%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 400ms;
+}
+
+h3.surlign-menu-three-four:hover {
+  background-size: 100% 100%;
+}
+
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -400,6 +544,13 @@ header a {
   font-family: "segoe";
   font-size: 1em;
   padding-top: 2em;
+}
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 .menu p {
   font-size: 1.3em;
@@ -412,17 +563,30 @@ header a {
 }
 
 .button {
-  width: 350px;
+  width: 40%;
   margin: auto;
   background-color: #569C87;
   color: #FFCC3D;
   text-align: center;
-  font-size: 2.5em;
   border-radius: 10px;
   padding-right: 0.5em;
 }
+@media (max-width: 1024px) {
+  .button {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
 .button p {
   padding: 0.2em;
+  font-weight: normal;
+  font-size: 2em;
+}
+@media (max-width: 1024px) {
+  .button p {
+    width: 100%;
+    font-size: 1.3em;
+  }
 }
 
 .dots {
@@ -442,7 +606,7 @@ header a {
 
 .dots--3 {
   letter-spacing: 3px;
-  animation: dots 2000ms 1100ms ease-in-out infinite;
+  animation: dots 2000ms 1200ms ease-in-out infinite;
 }
 
 /*# sourceMappingURL=style.css.map */

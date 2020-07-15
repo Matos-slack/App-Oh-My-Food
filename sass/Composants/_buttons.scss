@@ -1,14 +1,23 @@
 .button{
-    width: 350px;
+    width: 40%;
     margin: auto;
     background-color: $color-bg;
     color: $color-font;
     text-align: center;
-    font-size: 2.5em;
     border-radius: 10px;
     padding-right: 0.5em;
+    @media (max-width: 1024px){
+        width: 100%;
+        margin-left: 10px;
+    }
     p{
         padding: 0.2em;
+        font-weight: normal;
+        font-size: 2em;
+        @media (max-width: 1024px){
+            width: 100%;
+            font-size: 1.3em;
+        }
     }
 }
     .dots{
@@ -26,7 +35,7 @@
 }
 .dots--3{
     letter-spacing: 3px;
-    animation: dots 2000ms 1100ms ease-in-out infinite;
+    animation: dots 2000ms 1200ms ease-in-out infinite;
 }
 
 

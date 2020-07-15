@@ -2,15 +2,41 @@
     @include menu_style;
     background-color: $color-menu-three;
     margin: 1em;
-    p, h2{
-        background:-webkit-linear-gradient(left, rgb(4, 0, 255) , rgb(0, 183, 255));
+    @media (max-width: 768px){
+        width: 100%;
+        font-size: 0.8em;
+    }
+    p{
+        font-family: "dancing";
+        background:-webkit-linear-gradient(left, rgb(4, 0, 255), rgb(0, 204, 255));
         background-clip:text;
         -webkit-background-clip:text;
         color:transparent;
-        font-family: "dancing";
+        
     }
-        h2{
-            font-family: "segoe", Arial, Helvetica, sans-serif;
-        }
-    
+    h2{
+        font-family: "segoe", Arial, Helvetica, sans-serif;
+        background:-webkit-linear-gradient(left, rgb(4, 0, 255), rgb(0, 204, 255));
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
+    }
+//     .gradient{
+//     display: inline-block;
+//     background: $color-menu-three;
+//     color: black;
+//     position: relative;
+// }
+//     .gradient::before {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     background: -webkit-linear-gradient(left, rgb(4, 0, 255), rgb(0, 204, 255));
+//     background: linear-gradient(to right, rgb(4, 0, 255), rgb(0, 204, 255));
+//     content: '';
+//     display: block;
+//     mix-blend-mode: lighten;
+//   }
 }

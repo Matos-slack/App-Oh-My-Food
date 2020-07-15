@@ -2,18 +2,42 @@
     @include menu_style;
     background-color: $color-menu-four;
     margin: 1em;
+    @media (max-width: 768px){
+        width: 100%;
+        font-size: 0.8em;
+    }
     p{
         font-family: "kaushan";
-        background:-webkit-linear-gradient(left, rgb(23, 129, 14) 10% , rgba(166, 255, 114, 0.568));
+        background:-webkit-linear-gradient(left, rgb(23, 129, 14) 10% , #beff7f);
         background-clip:text;
         -webkit-background-clip:text;
         color:transparent;
+
     }
     h2{
-        background:-webkit-linear-gradient(left, rgb(23, 129, 14) 10% , rgba(166, 255, 114, 0.568));
+        letter-spacing: 2px;
+        background:-webkit-linear-gradient(left, rgb(23, 129, 14) 10% , #beff7f);
         background-clip:text;
         -webkit-background-clip:text;
         color:transparent;
-        letter-spacing: 2px;
+
     }
+    // .gradient{
+    //     display: inline-block;
+    //     background: $color-menu-four;
+    //     color: black;
+    //     position: relative;
+    // }
+    // .gradient::before {
+    //     position: absolute;
+    //     top: 0;
+    //     right: 0;
+    //     bottom: 0;
+    //     left: 0;
+    //     background: -webkit-linear-gradient(left, rgb(23, 129, 14), #beff7f);
+    //     background: linear-gradient(to right, rgb(23, 129, 14), #beff7f);
+    //     content: '';
+    //     display: block;
+    //     mix-blend-mode: lighten;
+    //   }
 }
