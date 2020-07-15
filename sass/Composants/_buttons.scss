@@ -13,6 +13,11 @@
         padding: 0.2em;
         font-weight: normal;
         font-size: 2em;
+        text-shadow: #FFCC3D 1px -1px 0,
+            #fbba41 1px 1px 0,
+            #fbae1f 2px 2px 0,
+            #ff6804 3px 3px 0,
+            #c04600 4px 4px 0;
         @media (max-width: 1280px){
             width: 100%;
             font-size: 1.5em;

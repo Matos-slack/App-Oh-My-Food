@@ -17,12 +17,17 @@ main{
 section{
     h2{
         text-align: center;
+        font-size: 2.5em;
+    }
+    .main-title{
+        text-shadow:1px 1px 0px #d5d5d5, 
+                    3px 3px 0px rgba(0, 0, 0, 0.2);
+        @media (max-width: 768px){
+            visibility: hidden;
+        }
     }
 }
 section{
     margin-top: 70px;
-    @media (max-width: 768px){
-        padding: 0.5em;
-    }
 }
 
