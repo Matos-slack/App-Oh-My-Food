@@ -133,24 +133,6 @@
         font-family: "dancing";
         font-weight: normal;
     }
-    // .gradient{
-    //     display: inline-block;
-    //     background: $color-menu-three;
-    //     color: black;
-    //     position: relative;
-    // }
-    // .gradient::before {
-    //     position: absolute;
-    //     top: 0;
-    //     right: 0;
-    //     bottom: 0;
-    //     left: 0;
-    //     background: -webkit-linear-gradient(left, rgb(4, 0, 255), rgb(0, 204, 255));
-    //     background: linear-gradient(to right, rgb(4, 0, 255), rgb(0, 204, 255));
-    //     content: '';
-    //     display: block;
-    //     mix-blend-mode: lighten;
-    //   }
     p{
         color: black;
         font-weight: normal;
@@ -183,23 +165,4 @@
         -webkit-background-clip:text;
         color:transparent;
     }
-    // .gradient{
-    //     display: inline-block;
-    //     background: $color-menu-four;
-    //     color: black;
-    //     position: relative;
-    // }
-    // .gradient::before {
-    //     position: absolute;
-    //     top: 0;
-    //     right: 0;
-    //     bottom: 0;
-    //     left: 0;
-    //     background: -webkit-linear-gradient(left, rgb(23, 129, 14), #beff7f);
-    //     background: linear-gradient(to right, rgb(23, 129, 14), #beff7f);
-    //     content: '';
-    //     display: block;
-    //     mix-blend-mode: lighten;
-    //   }
-
 }
