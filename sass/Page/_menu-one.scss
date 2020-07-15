@@ -1,7 +1,7 @@
 .menu_one{
     @include menu_style;
     background-color: $color-menu-one;
-    color: rgb(68, 1, 1);
+    color: $color-font-menu-one;
     margin: 1em;
     @media (max-width: 768px){
         width: 100%;
@@ -15,7 +15,7 @@
     }
     a{
         text-decoration: none;
-        color: rgb(68, 1, 1);
+        color: $color-font-menu-one;
     }
     h2{
         text-transform: uppercase;

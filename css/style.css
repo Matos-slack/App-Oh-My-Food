@@ -189,6 +189,7 @@ section {
 
 .b {
   background-color: #FEF5FD;
+  margin-bottom: 2em;
 }
 .b h2 {
   font-family: "croissant", "Times New Roman", Times, serif;
@@ -228,6 +229,10 @@ section {
 .c h2 {
   font-family: "dancing";
   font-weight: normal;
+  background: -webkit-linear-gradient(left, #0400ff, #00ccff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 .c p {
   color: black;
@@ -400,6 +405,7 @@ header h1 {
   color: #FFCC3D;
   font-size: 2.5em;
   width: 100%;
+  text-shadow: #FFCC3D 1px -1px 0, #fbba41 1px 1px 0, #fbae1f 2px 2px 0, #ffa20c 3px 3px 0, #fd800b 4px 4px 0, #ff6804 5px 5px 0, #c04600 6px 6px 0;
 }
 header h1:hover {
   animation: turn 1000ms linear 50ms;
@@ -460,10 +466,10 @@ header a {
 }
 @keyframes turn {
   0% {
-    -webkit-transform: rotate(0deg);
+    -webkit-transform: rotatex(0deg);
   }
   100% {
-    -webkit-transform: rotate(360deg);
+    -webkit-transform: rotatex(360deg);
   }
 }
 @keyframes dots {

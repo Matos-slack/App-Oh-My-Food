@@ -1,5 +1,5 @@
 .menu-list{
-    color: rgb(68, 1, 1);
+    color: $color-font-menu-one;
     display: flex;
     flex-direction: column;
     width: 50em;
@@ -88,6 +88,7 @@
 // style pour menu b
 .b{
     background-color: $color-menu-two;
+    margin-bottom: 2em;
     h2{
         font-family: "croissant", 'Times New Roman', Times, serif;
         margin-top: 0em;
@@ -132,6 +133,10 @@
     h2{
         font-family: "dancing";
         font-weight: normal;
+        background:-webkit-linear-gradient(left, rgb(4, 0, 255), rgb(0, 204, 255));
+        background-clip:text;
+        -webkit-background-clip:text;
+        color:transparent;
     }
     p{
         color: black;
