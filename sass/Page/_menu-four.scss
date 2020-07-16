@@ -1,7 +1,6 @@
 .menu_four{
     @include menu_style;
     background-color: $color-menu-four;
-    margin: 1em;
     @media (max-width: 768px){
         width: 100%;
         font-size: 0.8em;
@@ -9,7 +8,7 @@
     p{
         font-family: "kaushan";
         background:-webkit-linear-gradient(left, rgb(23, 129, 14) 10% , #beff7f);
-        background-clip:text;
+        // background-clip:text;
         -webkit-background-clip:text;
         color:transparent;
 
@@ -17,7 +16,7 @@
     h2{
         letter-spacing: 2px;
         background:-webkit-linear-gradient(left, rgb(23, 129, 14) 10% , #beff7f);
-        background-clip:text;
+        // background-clip:text;
         -webkit-background-clip:text;
         color:transparent;
 

@@ -95,7 +95,7 @@
         font-size: 2em;
         font-weight: normal;
         background: -webkit-linear-gradient(left, orange , blue);
-        background-clip:text;
+        // background-clip:text;
         -webkit-background-clip: text;
         color: transparent;
     }
@@ -134,7 +134,7 @@
         font-family: "dancing";
         font-weight: normal;
         background:-webkit-linear-gradient(left, rgb(4, 0, 255), rgb(0, 204, 255));
-        background-clip:text;
+        // background-clip:text;
         -webkit-background-clip:text;
         color:transparent;
     }
@@ -166,7 +166,7 @@
     h2{
         font-family: "kaushan", Arial, Helvetica, sans-serif;
         background:-webkit-linear-gradient(left, rgb(23, 129, 14) 10% , #beff7f);
-        background-clip:text;
+        // background-clip:text;
         -webkit-background-clip:text;
         color:transparent;
     }

@@ -2,7 +2,6 @@
     @include menu_style;
     background-color: $color-menu-one;
     color: $color-font-menu-one;
-    margin: 1em;
     @media (max-width: 768px){
         width: 100%;
         font-size: 0.8em;
