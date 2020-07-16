@@ -369,6 +369,7 @@ footer {
 footer a {
   text-decoration: none;
   color: #FFCC3D;
+  font-weight: normal;
 }
 footer h3 {
   font-size: 1.8em;
