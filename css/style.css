@@ -369,12 +369,10 @@ footer {
 footer a {
   text-decoration: none;
   color: #FFCC3D;
-  font-weight: normal;
 }
 footer h3 {
   font-size: 1.8em;
   max-width: 1280px;
-  text-shadow: #FFCC3D 1px -1px 0, #fbba41 1px 1px 0, #fbae1f 2px 2px 0, #ff6804 3px 3px 0, #c04600 4px 4px 0;
 }
 @media (max-width: 768px) {
   footer h3 {
@@ -399,7 +397,6 @@ header h1 {
   color: #FFCC3D;
   font-size: 2.5em;
   width: 100%;
-  text-shadow: #FFCC3D 1px -1px 0, #fbba41 1px 1px 0, #fbae1f 2px 2px 0, #ff6804 3px 3px 0, #c04600 4px 4px 0;
 }
 header h1:hover {
   animation: turn 1000ms linear 50ms;
@@ -611,7 +608,6 @@ h3.surlign-menu-three-four:hover {
   padding: 0.2em;
   font-weight: normal;
   font-size: 2em;
-  text-shadow: #FFCC3D 1px -1px 0, #fbba41 1px 1px 0, #fbae1f 2px 2px 0, #ff6804 3px 3px 0, #c04600 4px 4px 0;
 }
 @media (max-width: 1280px) {
   .button p {

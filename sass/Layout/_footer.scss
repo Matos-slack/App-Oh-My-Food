@@ -8,16 +8,15 @@ footer{
     a{
         text-decoration: none;
         color: $color-font;
-        font-weight: normal;
     }
     h3{
         font-size: 1.8em;
         max-width: 1280px;
-        text-shadow: #FFCC3D 1px -1px 0,
-            #fbba41 1px 1px 0,
-            #fbae1f 2px 2px 0,
-            #ff6804 3px 3px 0,
-            #c04600 4px 4px 0;
+        // text-shadow: #FFCC3D 1px -1px 0,
+        //     #fbba41 1px 1px 0,
+        //     #fbae1f 2px 2px 0,
+        //     #ff6804 3px 3px 0,
+        //     #c04600 4px 4px 0;
         @media (max-width: 768px){
             font-size: 1.2em;
         }
