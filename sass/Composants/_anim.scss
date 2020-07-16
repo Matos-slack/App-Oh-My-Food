@@ -1,12 +1,3 @@
-.anim-menu{
-
-    transform: scale(1);
-    transition: transform 400ms;
-    &:hover{
-        transform: scale(1.35);
-        opacity: 0.7;
-    }
-}
 @keyframes wiggle {
     0% { -webkit-transform: translate(3px, 2px) rotate(0deg); }
 10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
@@ -82,4 +73,48 @@ transition: background-size 400ms;
 }
 h3.surlign-menu-three-four:hover{
 background-size: 100% 100%;
+}
+
+//leger scale pour menus
+.anim-menu{
+
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover{
+        transform: scale(1.35);
+        opacity: 0.7;
+    }
+}
+
+.menu_one{
+
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover{
+        transform: scale(1.02);
+    }
+}
+.menu_two{
+
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover{
+        transform: scale(1.02);
+    }
+}
+.menu_three{
+
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover{
+        transform: scale(1.02);
+    }
+}
+.menu_four{
+
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover{
+        transform: scale(1.02);
+    }
 }
