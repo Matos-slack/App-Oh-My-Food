@@ -95,7 +95,6 @@
         font-size: 2em;
         font-weight: normal;
         background: -webkit-linear-gradient(left, orange , blue);
-        // background-clip:text;
         -webkit-background-clip: text;
         color: transparent;
     }
@@ -134,7 +133,6 @@
         font-family: "dancing";
         font-weight: normal;
         background:-webkit-linear-gradient(left, rgb(4, 0, 255), rgb(0, 204, 255));
-        // background-clip:text;
         -webkit-background-clip:text;
         color:transparent;
     }
@@ -166,8 +164,33 @@
     h2{
         font-family: "kaushan", Arial, Helvetica, sans-serif;
         background:-webkit-linear-gradient(left, rgb(23, 129, 14) 10% , #beff7f);
-        // background-clip:text;
         -webkit-background-clip:text;
         color:transparent;
     }
 }
+
+
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-2-left {
+    width: 250px;
+    height: 25px;
+    background-position: 0 0;
+}
+
+.sprite-2-left2 {
+    width: 250px;
+    height: 29px;
+    background-position: 0 -25px;
+}
+
+.sprite-2-left3 {
+    width: 250px;
+    height: 29px;
+    background-position: 0 -54px;
+}
+

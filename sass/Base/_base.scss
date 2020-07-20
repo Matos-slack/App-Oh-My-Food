@@ -7,7 +7,7 @@ body{
 }
 
 main{
-    width: 50%;
+    max-width: 1140px;
     margin: auto;
     @media (max-width: 425px){
         width: 80%;
@@ -29,5 +29,11 @@ section{
 }
 section{
     margin-top: 70px;
+    @media (max-width: 425px){
+        margin: 0;
+    }
 }
 
+.mirror{
+    transform: scaleX(-1);
+}

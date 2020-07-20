@@ -7,7 +7,7 @@ body {
 }
 
 main {
-  width: 50%;
+  max-width: 1140px;
   margin: auto;
 }
 @media (max-width: 425px) {
@@ -32,6 +32,15 @@ section .main-title {
 
 section {
   margin-top: 70px;
+}
+@media (max-width: 425px) {
+  section {
+    margin: 0;
+  }
+}
+
+.mirror {
+  transform: scaleX(-1);
 }
 
 @font-face {
@@ -263,6 +272,30 @@ section {
   color: transparent;
 }
 
+.sprite {
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-2-left {
+  width: 250px;
+  height: 25px;
+  background-position: 0 0;
+}
+
+.sprite-2-left2 {
+  width: 250px;
+  height: 29px;
+  background-position: 0 -25px;
+}
+
+.sprite-2-left3 {
+  width: 250px;
+  height: 29px;
+  background-position: 0 -54px;
+}
+
 .menu_one {
   width: 40%;
   text-align: center;
@@ -389,7 +422,6 @@ footer .foot {
 
 header {
   display: flex;
-  width: 100%;
   background-color: #569C87;
 }
 header h1 {
@@ -397,9 +429,6 @@ header h1 {
   color: #FFCC3D;
   font-size: 2.5em;
   width: 100%;
-}
-header h1:hover {
-  animation: turn 1000ms linear 50ms;
 }
 header a {
   text-decoration: none;
@@ -409,6 +438,11 @@ header a {
 
 .menu-header h2 {
   font-size: 3em;
+}
+@media (max-width: 425px) {
+  .menu-header h2 {
+    font-size: 1.5em;
+  }
 }
 
 @keyframes wiggle {

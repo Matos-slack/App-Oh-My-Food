@@ -1,6 +1,6 @@
 header{
     display: flex;
-    width: 100%;
+    // width: 100%;
     background-color: $color-bg;
         h1{
             text-align: center;
@@ -12,9 +12,9 @@ header{
             // #fbae1f 2px 2px 0,
             // #ff6804 3px 3px 0,
             // #c04600 4px 4px 0;
-        &:hover{
-            animation: turn 1000ms linear 50ms;
-            }
+        // &:hover{
+        //     animation: turn 1000ms linear 50ms;
+        //     }
         }
         a{
             text-decoration: none;
@@ -25,5 +25,8 @@ header{
 .menu-header{
     h2{
         font-size: 3em;
+        @media (max-width: 425px){
+            font-size: 1.5em;
+        }
     }
 }
