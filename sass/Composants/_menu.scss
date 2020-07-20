@@ -19,3 +19,29 @@
         font-size: 2em;
     }
 }
+
+//ornement des menus
+
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-2-left {
+    width: 250px;
+    height: 25px;
+    background-position: 0 0;
+}
+
+.sprite-2-left2 {
+    width: 250px;
+    height: 29px;
+    background-position: 0 -25px;
+}
+
+.sprite-2-left3 {
+    width: 250px;
+    height: 29px;
+    background-position: 0 -54px;
+}
