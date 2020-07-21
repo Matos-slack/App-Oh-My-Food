@@ -73,7 +73,7 @@ section {
 }
 @font-face {
   font-family: "dancing";
-  src: url("../font/Dancing-script.ttf") format("truetype");
+  src: url("../font/Dancing.ttf") format("truetype");
 }
 .menu {
   display: flex;
