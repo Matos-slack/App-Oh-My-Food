@@ -75,6 +75,54 @@ section {
   font-family: "dancing";
   src: url("../font/Dancing-script.ttf") format("truetype");
 }
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "segoe";
+  font-size: 1em;
+  padding-top: 2em;
+}
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+    width: 100%;
+  }
+}
+.menu p {
+  font-size: 1.3em;
+}
+.menu a {
+  text-decoration: none;
+}
+.menu h2 {
+  font-size: 2em;
+}
+
+.sprite {
+  background-image: url(../image/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-2-left {
+  width: 250px;
+  height: 25px;
+  background-position: 0 0;
+}
+
+.sprite-2-left2 {
+  width: 250px;
+  height: 29px;
+  background-position: 0 -25px;
+}
+
+.sprite-2-left3 {
+  width: 250px;
+  height: 29px;
+  background-position: 0 -54px;
+}
+
 .menu_four {
   width: 40%;
   text-align: center;
@@ -576,67 +624,13 @@ h3.surlign-menu-three-four:hover {
   transform: scale(1.02);
 }
 
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-family: "segoe";
-  font-size: 1em;
-  padding-top: 2em;
-}
-@media (max-width: 768px) {
-  .menu {
-    display: flex;
-    width: 100%;
-  }
-}
-.menu p {
-  font-size: 1.3em;
-}
-.menu a {
-  text-decoration: none;
-}
-.menu h2 {
-  font-size: 2em;
-}
-
-.sprite {
-  background-image: url(../img/spritesheet.png);
-  background-repeat: no-repeat;
-  display: block;
-}
-
-.sprite-2-left {
-  width: 250px;
-  height: 25px;
-  background-position: 0 0;
-}
-
-.sprite-2-left2 {
-  width: 250px;
-  height: 29px;
-  background-position: 0 -25px;
-}
-
-.sprite-2-left3 {
-  width: 250px;
-  height: 29px;
-  background-position: 0 -54px;
-}
-
 .button {
-  width: 40%;
+  max-width: 350px;
   margin: auto;
   background-color: #569C87;
   color: #FFCC3D;
   text-align: center;
   border-radius: 10px;
-}
-@media (max-width: 1024px) {
-  .button {
-    width: 100%;
-    margin-left: 10px;
-  }
 }
 .button p {
   padding: 0.2em;
