@@ -13,7 +13,6 @@ main {
 @media (max-width: 425px) {
   main {
     width: 80%;
-    margin: 2em;
   }
 }
 
