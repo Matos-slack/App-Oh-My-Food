@@ -130,7 +130,7 @@ section {
 }
 @media (max-width: 768px) {
   .menu_four {
-    width: 100%;
+    width: 550px;
     font-size: 0.8em;
   }
 }
@@ -328,7 +328,7 @@ section {
 }
 @media (max-width: 768px) {
   .menu_one {
-    width: 100%;
+    width: 550px;
     font-size: 0.8em;
   }
 }
@@ -360,7 +360,7 @@ section {
 }
 @media (max-width: 768px) {
   .menu_three {
-    width: 100%;
+    width: 550px;
     font-size: 0.8em;
   }
 }
@@ -389,7 +389,7 @@ section {
 }
 @media (max-width: 768px) {
   .menu_two {
-    width: 100%;
+    width: 550px;
     font-size: 0.8em;
   }
 }
