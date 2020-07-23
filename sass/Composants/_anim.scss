@@ -29,53 +29,43 @@
 
 //surlignement des menus
 h3.surlign-menu-one{
-    text-decoration: none;
-    background: linear-gradient(to top, rgb(68, 1, 1) 0%, rgb(68, 1, 1) 1%, transparent 7%) no-repeat;
-    background-size: 0 100%;
-    transition: background-size 500ms;
+    background: linear-gradient(to top, rgb(68, 1, 1) 4%, rgb(68, 1, 1) 1%, transparent 6%) no-repeat;
+    @include surligne;
 }
 h3.surlign-menu-one:hover{
     background-size: 100% 100%;
 }
 h3.surlign-menu-two-two{
-text-decoration: none;
-background: linear-gradient(to top, #A86999 0%, #A86999 1%, transparent 7%) no-repeat;
-background-size: 0 100%;
-transition: background-size 400ms;
+    background: linear-gradient(to top, #A86999 4%, #A86999 1%, transparent 6%) no-repeat;
+    @include surligne;
 }
 h3.surlign-menu-two-two:hover{
-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 h3.surlign-menu-two-one{
-text-decoration: none;
-background: linear-gradient(to top, rgba(204, 117, 45, 0.918) 0%, rgba(204, 117, 45, 0.918) 1%, transparent 7%) no-repeat;
-background-size: 0 100%;
-transition: background-size 400ms;
+    background: linear-gradient(to top, rgba(204, 117, 45, 0.918) 4%, rgba(204, 117, 45, 0.918) 1%, transparent 6%) no-repeat;
+    @include surligne;
 }
 h3.surlign-menu-two-one:hover{
-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 h3.surlign-menu-two-three{
-text-decoration: none;
-background: linear-gradient(to top, #8A5CCC 0%, #8A5CCC 1%, transparent 7%) no-repeat;
-background-size: 0 100%;
-transition: background-size 400ms;
+    background: linear-gradient(to top, #8A5CCC 4%, #8A5CCC 1%, transparent 6%) no-repeat;
+    @include surligne;
 }
 h3.surlign-menu-two-three:hover{
-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
-
 h3.surlign-menu-three-four{
-text-decoration: none;
-background: linear-gradient(to top, #000000 0%, #000000 1%, transparent 7%) no-repeat;
-background-size: 0 100%;
-transition: background-size 400ms;
+    background: linear-gradient(to top, #000000 4%, #000000 1%, transparent 6%) no-repeat;
+    @include surligne;
 }
 h3.surlign-menu-three-four:hover{
-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 
-//leger scale pour menus
+
+//leger scale pour p et h2 menus
 .anim-menu{
 
     transform: scale(1);
@@ -86,15 +76,17 @@ background-size: 100% 100%;
     }
 }
 
-.menu_one{
-    @include anim-menu;
-}
-.menu_two{
-    @include anim-menu;
-}
-.menu_three{
-    @include anim-menu;
-}
-.menu_four{
-    @include anim-menu;
-}
+
+
+// .menu_one{
+//     @include anim-menu;
+// }
+// .menu_two{
+//     @include anim-menu;
+// }
+// .menu_three{
+//     @include anim-menu;
+// }
+// .menu_four{
+//     @include anim-menu;
+// }

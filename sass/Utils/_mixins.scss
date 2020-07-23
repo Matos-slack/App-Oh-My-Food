@@ -2,15 +2,25 @@
     width: 40%;
     text-align: center;
     margin: 1.2em;
-    box-shadow: 2px 8px 15px 2px rgba(112,112,112,0.32);
+    box-shadow: 1px 10px 20px 5px rgba(112,112,112,0.32);
     padding-top: 12em;
     height: 22em;
 }
 
-@mixin anim-menu {
-    transform: scale(1);
-    transition: transform 400ms;
-    &:hover{
-        transform: scale(1.02);
-    }
+@mixin surligne {
+    text-decoration: none;
+    transition: background-size 400ms;
+    background-size: 0 100%;
 }
+
+
+
+//Mixin pour essai sur scale des cadres de menus
+
+// @mixin anim-menu {
+//     transform: scale(1);
+//     transition: transform 400ms;
+//     &:hover{
+//         transform: scale(1.02);
+//     }
+// }
