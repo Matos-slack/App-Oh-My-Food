@@ -516,6 +516,9 @@ header a {
   0% {
     opacity: 0;
   }
+  50% {
+    opacity: 0;
+  }
   100% {
     opacity: 1;
   }
@@ -531,7 +534,7 @@ header a {
 h3.surlign-menu-one {
   background: linear-gradient(to top, #440101 4%, #440101 1%, transparent 6%) no-repeat;
   text-decoration: none;
-  transition: background-size 400ms;
+  transition: background-size 500ms;
   background-size: 0 100%;
 }
 
@@ -542,7 +545,7 @@ h3.surlign-menu-one:hover {
 h3.surlign-menu-two-two {
   background: linear-gradient(to top, #A86999 4%, #A86999 1%, transparent 6%) no-repeat;
   text-decoration: none;
-  transition: background-size 400ms;
+  transition: background-size 500ms;
   background-size: 0 100%;
 }
 
@@ -553,7 +556,7 @@ h3.surlign-menu-two-two:hover {
 h3.surlign-menu-two-one {
   background: linear-gradient(to top, rgba(204, 117, 45, 0.918) 4%, rgba(204, 117, 45, 0.918) 1%, transparent 6%) no-repeat;
   text-decoration: none;
-  transition: background-size 400ms;
+  transition: background-size 500ms;
   background-size: 0 100%;
 }
 
@@ -564,7 +567,7 @@ h3.surlign-menu-two-one:hover {
 h3.surlign-menu-two-three {
   background: linear-gradient(to top, #8A5CCC 4%, #8A5CCC 1%, transparent 6%) no-repeat;
   text-decoration: none;
-  transition: background-size 400ms;
+  transition: background-size 500ms;
   background-size: 0 100%;
 }
 
@@ -575,7 +578,7 @@ h3.surlign-menu-two-three:hover {
 h3.surlign-menu-three-four {
   background: linear-gradient(to top, #000000 4%, #000000 1%, transparent 6%) no-repeat;
   text-decoration: none;
-  transition: background-size 400ms;
+  transition: background-size 500ms;
   background-size: 0 100%;
 }
 
